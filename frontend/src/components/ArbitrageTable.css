@@ -1,0 +1,68 @@
+.arbitrage-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.arbitrage-container h1, h3 {
+  text-align: center;
+  color: #333;
+}
+
+.arbitrage-container h3 {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.arbitrage-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.arbitrage-table th,
+.arbitrage-table td {
+  padding: 12px 15px;
+  text-align: right;
+}
+
+.arbitrage-table th:first-child,
+.arbitrage-table td:first-child {
+  text-align: left;
+}
+
+.arbitrage-table thead {
+  background-color: #f8f9fa;
+}
+
+.arbitrage-table th {
+  font-weight: 600;
+  color: #495057;
+}
+
+.arbitrage-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+.arbitrage-table tr:last-child {
+  border-bottom: none;
+}
+
+.arbitrage-table tr.positive {
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.arbitrage-table tr.negative {
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+.arbitrage-table tr:hover {
+  background-color: #f8f9fa;
+} 
